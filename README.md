@@ -19,10 +19,10 @@ will also need typescript (we have that too)
 	unzip files and put in to local repo
 
 2. in terminal cd into "mdb-angular-free" directory:
-	'''npm install'''
+	```npm install```
 
 3. in terminal:
-	'''ng serve'''
+	```ng serve```
 
 4. go to "http://localhost:4200/"
 
@@ -35,22 +35,22 @@ still need angular cli (still got it) and typescript (got that too)
 1. in terminal, create project directory and cd into directory
 
 2. in terminal, create angular project with angular cli:
-	'''ng new [YOUR-PROJECT-NAME] --style-scss'''
+	```ng new [YOUR-PROJECT-NAME] --style-scss```
 
 3. in terminal, cd into [YOUR-PROJECT-NAME]
 
 4. in terminal, install angular bootstrap mdb:
-	'''npm install angular-bootstrap-md -save'''
+	```npm install angular-bootstrap-md -save```
 
 5. in terminal, open project in sublime:
-	'''subl .'''
+	```subl .```
 
-6. open 'app.module.ts' and add:
-	'''import { MDBBootstrapModule } from 'angular-bootstrap-md';'''
+6. open `app.module.ts` and add:
+	```import { MDBBootstrapModule } from 'angular-bootstrap-md';```
 
-7. in the same file, include '''MDBBootstrapModule.forRoot()''' in the @NgModel imports
+7. in the same file, include ```MDBBootstrapModule.forRoot()``` in the ```@NgModel``` imports
 
-8. in the root folder of your project, open the '.angular-cli.json' file and look for the "styles" on line 22. 
-	add '''"../node_modules/angular-bootstrap-md/scss/mdb.scss",''' above your '''"styles.css"'''
+8. in the root folder of your project, open the `.angular-cli.json` file and look for the "styles" on line 22. 
+	add ```"../node_modules/angular-bootstrap-md/scss/mdb.scss",``` above your ```"styles.css"```
 	(don't forget the comma on the end)
 
