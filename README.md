@@ -11,9 +11,9 @@ the five minute quick start - https://mdbootstrap.com/angular/5min-quickstart/
 ### option 1: download starter files
 1. in terminal, install angular cli and typescript to make sure you have the latest version:
 
-```npm i -g @angular/cli```
+	```npm i -g @angular/cli```
 
-```npm i -g typescript```
+	```npm i -g typescript```
 
 
 2. download starter project: 
@@ -44,9 +44,9 @@ the five minute quick start - https://mdbootstrap.com/angular/5min-quickstart/
 ### option 2: build angular project with angular cli and npm install mdb
 1. in terminal, install angular cli and typescript to make sure you have the latest version:
 
-```npm i -g @angular/cli```
+	```npm i -g @angular/cli```
 
-```npm i -g typescript```
+	```npm i -g typescript```
 
 
 2. in terminal, create project directory and cd into directory
@@ -96,9 +96,11 @@ the five minute quick start - https://mdbootstrap.com/angular/5min-quickstart/
 
 	in the `@NgModel` include schemas:
 
-	```@NgModule({ ...
+	```
+	@NgModule({ ...
 	  schemas: [ NO_ERRORS_SCHEMA ]
-	  })```
+	  })
+	  ```
 
 
 12. in terminal, run your app:
